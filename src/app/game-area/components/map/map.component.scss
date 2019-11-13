@@ -1,0 +1,10 @@
+:host {
+  flex: 1 1 auto;
+  canvas {
+    height: 100%;
+    width: 100%;
+    &:focus {
+      outline: 0;
+    }
+  }
+}

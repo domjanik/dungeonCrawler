@@ -1,0 +1,10 @@
+$window-size: 600px;
+
+:host {
+  height: $window-size + 80px;
+  width: $window-size;
+  border: 1px solid #dedede;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
